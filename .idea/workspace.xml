@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a4ee22d-9e3c-4d38-95d5-6789407b047e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/films/PosterItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/films/PosterManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/films/PosterManagerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/films/PosterManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/films/PosterManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/films/PosterManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/films/PosterManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +44,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.PosterManagerTest">
+  <component name="RunManager" selected="JUnit.PosterManagerTest.shouldFindLastMoreLimit">
     <configuration name="PosterManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW12Java" />
       <extension name="coverage">
@@ -64,7 +60,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PosterManagerTest.shouldFindLast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PosterManagerTest.shouldFindLastEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW12Java" />
       <extension name="coverage">
         <pattern>
@@ -74,13 +70,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.films" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.films.PosterManagerTest" />
-      <option name="METHOD_NAME" value="shouldFindLast" />
+      <option name="METHOD_NAME" value="shouldFindLastEqual" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PosterManagerTest.shouldFindLastEquaIfZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PosterManagerTest.shouldFindLastLessLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW12Java" />
       <extension name="coverage">
         <pattern>
@@ -90,13 +86,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.films" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.films.PosterManagerTest" />
-      <option name="METHOD_NAME" value="shouldFindLastEquaIfZero" />
+      <option name="METHOD_NAME" value="shouldFindLastLessLimit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PosterManagerTest.shouldFindLastEquaLessLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PosterManagerTest.shouldFindLastMoreLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW12Java" />
       <extension name="coverage">
         <pattern>
@@ -106,13 +102,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.films" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.films.PosterManagerTest" />
-      <option name="METHOD_NAME" value="shouldFindLastEquaLessLimit" />
+      <option name="METHOD_NAME" value="shouldFindLastMoreLimit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PosterManagerTest.shouldFindLastEquaMoreLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PosterManagerTest.shouldShowAddedFilms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW12Java" />
       <extension name="coverage">
         <pattern>
@@ -122,7 +118,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.films" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.films.PosterManagerTest" />
-      <option name="METHOD_NAME" value="shouldFindLastEquaMoreLimit" />
+      <option name="METHOD_NAME" value="shouldShowAddedFilms" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PosterManagerTest.shouldFindLastMoreLimit" />
+        <item itemvalue="JUnit.PosterManagerTest.shouldFindLastLessLimit" />
+        <item itemvalue="JUnit.PosterManagerTest.shouldFindLastEqual" />
+        <item itemvalue="JUnit.PosterManagerTest.shouldShowAddedFilms" />
         <item itemvalue="JUnit.PosterManagerTest" />
-        <item itemvalue="JUnit.PosterManagerTest.shouldFindLastEquaMoreLimit" />
-        <item itemvalue="JUnit.PosterManagerTest.shouldFindLastEquaIfZero" />
-        <item itemvalue="JUnit.PosterManagerTest.shouldFindLastEquaLessLimit" />
-        <item itemvalue="JUnit.PosterManagerTest.shouldFindLast" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +166,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ru/netology/films/PosterManagerTest.java</url>
-          <line>13</line>
+          <line>18</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>

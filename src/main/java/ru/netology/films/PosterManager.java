@@ -2,12 +2,14 @@ package ru.netology.films;
 
 public class PosterManager {
     private PosterItem[] films = new PosterItem[0];
-    int limit;
-    public PosterManager(){
-        this.limit = 4;
+    private int limit;
+
+    public PosterManager() {
+        this.limit = 10;
     }
-    public PosterManager(int limit){
-        this.limit=limit;
+
+    public PosterManager(int limit) {
+        this.limit = limit;
     }
 
 
@@ -23,13 +25,13 @@ public class PosterManager {
     public PosterItem[] findAll() {
         return films;
     }
+
     public PosterItem[] findLast() {
         int resultLength;
 
-        if (films.length < limit)
-        {
+        if (films.length < limit) {
             resultLength = films.length;
-        }   else {
+        } else {
             resultLength = limit;
         }
         PosterItem[] tmp = new PosterItem[resultLength];
