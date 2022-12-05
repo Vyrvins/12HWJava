@@ -85,8 +85,9 @@ public class PosterManagerTest {
         manager.save(film8);
         manager.save(film9);
         manager.save(film10);
+        manager.save(film11);
 
-        PosterItem[] expected = {film10, film9, film8, film7, film6, film5, film4, film3, film2, film1};
+        PosterItem[] expected = {film11, film10, film9, film8, film7, film6, film5, film4, film3, film2};
         PosterItem[] actual = manager.findLast();
 
         Assertions.assertArrayEquals(expected, actual);

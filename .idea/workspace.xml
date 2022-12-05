@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7a4ee22d-9e3c-4d38-95d5-6789407b047e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/films/PosterManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/films/PosterManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/films/PosterManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/films/PosterManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,9 +126,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PosterManagerTest.shouldFindLastMoreLimit" />
+        <item itemvalue="JUnit.PosterManagerTest.shouldShowAddedFilms" />
         <item itemvalue="JUnit.PosterManagerTest.shouldFindLastLessLimit" />
         <item itemvalue="JUnit.PosterManagerTest.shouldFindLastEqual" />
-        <item itemvalue="JUnit.PosterManagerTest.shouldShowAddedFilms" />
         <item itemvalue="JUnit.PosterManagerTest" />
       </list>
     </recent_temporary>
